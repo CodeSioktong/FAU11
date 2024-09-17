@@ -1,0 +1,15 @@
+- Configuring Git
+git config --global user.name "username"
+
+git config --global user.email "email"
+
+-Check the status  the files and folder
+git status
+
+
+
+Git Three Stage Architecture
+1.Working Area (Fau11)
+2.Staging Area 
+    -Add
+\\\\
