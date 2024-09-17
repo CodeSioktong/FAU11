@@ -1,15 +1,33 @@
 - Configuring Git
 git config --global user.name "username"
+git config user.name
 
 git config --global user.email "email"
+git config user.email
 
--Check the status  the files and folder
+- Check the status the files and folder
 git status
 
-
-
 Git Three Stage Architecture
-1.Working Area (Fau11)
-2.Staging Area 
-    -Add
-\\\\
+1. Working Area (FAU11)
+2. Staging Area
+- Add all the files that are modified to the staging area
+git add .
+3. Commit Stage
+- Create a commit
+git commit -m "This is the description."
+
+- Check the history
+git log
+git log --oneline
+
+git commit --amend -m "Create notes for Git and GitHub."
+
+==Branching==
+
+-List all available Branch
+git branch -add
+
+-Create a new Branch
+git branch -a
+
